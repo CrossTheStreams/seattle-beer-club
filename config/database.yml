@@ -15,9 +15,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: SeattleBeerClub_development
+  database: seattle_beer_club_development
   pool: 5
-  username: SeattleBeerClub
+  username: admin
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -41,9 +41,9 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: SeattleBeerClub_test
+  database: seattle_beer_club_test
   pool: 5
-  username: SeattleBeerClub
+  username: admin
   password:
 
 production:
