@@ -7,11 +7,22 @@ gem 'rails', '3.2.3'
 
 gem 'pg'
 
+gem 'backbone-on-rails'
+gem "jquery-rails"
+
+gem "haml", ">= 3.0.0"
+
+gem "omniauth", "~> 0.2.0"
+
+gem "capybara", :group => [:development, :test]
+gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]
+
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 3.1'
+  gem 'bootstrap-sass', '~> 2.0.3'
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -37,8 +48,3 @@ end
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem "capybara", :group => [:development, :test]
-gem "jquery-rails"
-gem "omniauth", "~> 0.2.0"
-gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]
-gem "haml", ">= 3.0.0"
