@@ -12,7 +12,10 @@ gem "jquery-rails"
 
 gem "haml", ">= 3.0.0"
 
-gem "omniauth", "~> 0.2.0"
+gem "devise"
+gem "koala"
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 
 gem "capybara", :group => [:development, :test]
 gem "rspec-rails", ">= 2.0.1", :group => [:development, :test]
